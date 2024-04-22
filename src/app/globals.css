@@ -1,0 +1,35 @@
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: var(--font-raleway);
+  letter-spacing: .05rem;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+  display: inherit;
+  justify-content: inherit;
+  align-content: inherit;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+
