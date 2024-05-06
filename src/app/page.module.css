@@ -1,8 +1,16 @@
+'use client'
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  @apply flex flex-col justify-between items-center py-24 min-h-screen;
+
+  @layer components {
+    .swiper-button-prev,
+    .swiper-button-next,
+    &::after {
+      @apply text-white !important;
+    }
+  }
+
+  .swiper-button-next {
+    @apply text-white !important;
+  }
 }
